@@ -1,3 +1,5 @@
+package sms
+
 class EPhoneTest
 {
 	public static void main(String args[])
