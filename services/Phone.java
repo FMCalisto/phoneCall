@@ -17,6 +17,11 @@ class Phone
 	
 	void setWeight(double val)
 	{
+		if(val < -1)
+		{
+			return;
+		}
+		
 		weight = val;
 	}
 	
